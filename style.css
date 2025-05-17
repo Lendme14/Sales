@@ -1,0 +1,32 @@
+
+body {
+  font-family: sans-serif;
+  transition: background 0.3s, color 0.3s;
+  margin: 20px;
+}
+.light {
+  background: #ffffff;
+  color: #000000;
+}
+.dark {
+  background: #121212;
+  color: #ffffff;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+input, select, button {
+  margin: 5px 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
